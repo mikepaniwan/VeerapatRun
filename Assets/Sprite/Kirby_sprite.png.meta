@@ -24,18 +24,18 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings:
@@ -44,6 +44,60 @@ TextureImporter:
     textureFormat: -2
     compressionQuality: 50
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Kirby_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 274
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Kirby_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 275
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Kirby_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 274
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Kirby_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 274
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Kirby_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 274
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Kirby_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 273
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
   spritePackingTag: 
   userData: 
